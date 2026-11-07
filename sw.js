@@ -1,6 +1,6 @@
 // Caches the app's own shell (page, icons) so it opens fast.
 // The bot itself always loads live from Google.
-const CACHE = 'ai-rc-v1';
+const CACHE = 'ai-rc-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'favicon.png', 'logo.png'];
 
 self.addEventListener('install', e => {
